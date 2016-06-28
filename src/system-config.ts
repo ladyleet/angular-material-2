@@ -64,6 +64,11 @@ const barrels: string[] = [
   'app/icon-example',
   'app/card-example',
   'app/checkbox-example',
+  'app/grid-list-example',
+  'app/input-example',
+  'app/list-example',
+  'app/progress-bar-example',
+  'app/progress-circle-example',
   /** @cli-barrel */
 ];
 
