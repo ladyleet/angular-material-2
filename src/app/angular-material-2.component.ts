@@ -12,6 +12,13 @@ import { InputExampleComponent } from './input-example';
 import { ListExampleComponent } from './list-example';
 import { ProgressBarExampleComponent } from './progress-bar-example';
 import { ProgressCircleExampleComponent } from './progress-circle-example';
+import { RadioExampleComponent } from './radio-example';
+import { SlideToggleComponent } from './slide-toggle';
+import { TabsExampleComponent } from './tabs-example';
+import { ToolbarExampleComponent } from './toolbar-example';
+import { LovelyPeopleComponent } from './lovely-people';
+
+
 
 @Component({
   moduleId: module.id,
@@ -31,15 +38,35 @@ import { ProgressCircleExampleComponent } from './progress-circle-example';
     InputExampleComponent,
     ListExampleComponent,
     ProgressBarExampleComponent,
-    ProgressCircleExampleComponent
+    ProgressCircleExampleComponent,
+    RadioExampleComponent,
+    SlideToggleComponent,
+    TabsExampleComponent,
+    ToolbarExampleComponent
   ],
   template: `
     <app-header-toolbar></app-header-toolbar>
     <a routerLink="/checkbox">Checkbox Example</a>
     <a routerLink="/button">Button Example</a>
+    <a routerLink="/icon">Icons</a>
+    <a routerLink="/card">Card</a>
+    <a routerLink="/grid-list">Grid List</a>
+    <a routerLink="/input">Input</a>
+    <a routerLink="/list">List</a>
+    <a routerLink="/progress-bar">Progress Bar</a>
+    <a routerLink="/progress-circle">Progress Circle</a>
+    <a routerLink="/radio">Radio</a>
+    <a routerLink="/slide-toggle">Slide Toggle</a>
+    <a routerLink="/tabs">Tabs</a>
+    <a routerLink="/toolbar">Toolbar</a>
+    <a routerLink="/contributors">Contributors</a>
     <router-outlet></router-outlet>
     <app-ng-explainer></app-ng-explainer>
 
+    <div>
+      <h1>Contributors</h1>
+      <app-lovely-people></app-lovely-people>
+    </div>
     <div>
       <h1>These are the examples broken down into individual components</h1>
       <app-button-example></app-button-example>
@@ -51,14 +78,10 @@ import { ProgressCircleExampleComponent } from './progress-circle-example';
       <app-list-example></app-list-example>
       <app-progress-bar-example></app-progress-bar-example>
       <app-progress-circle-example></app-progress-circle-example>
+      <app-slide-toggle></app-slide-toggle>
+      <app-tabs-example></app-tabs-example>
+      <app-toolbar-example></app-toolbar-example>
     </div>
-
-    <div>
-    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    </div>
-
-    <app-test-components></app-test-components>
-
   `
 })
 

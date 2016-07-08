@@ -11,7 +11,7 @@ import { MdInput } from '@angular2-material/input';
   ],
   template: `
     <div>
-      <h2>input example</h2>
+      <h2>Input Example</h2>
         <md-card>
           <md-input placeholder="Character count (100 max)" maxLength="100" class="demo-full-width"
               value="Hello world. How are you?"

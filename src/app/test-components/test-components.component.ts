@@ -115,7 +115,7 @@ import { MD_TOOLBAR_DIRECTIVES } from '@angular2-material/toolbar';
       </div>
 
       <div>
-        <h2>slide-toggle example</h2>
+        <h2>Slide Toggle Example</h2>
           <md-slide-toggle [checked]="isChecked">
             Input Binding
           </md-slide-toggle>
