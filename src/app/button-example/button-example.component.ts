@@ -9,7 +9,7 @@ import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';
   directives: [MD_BUTTON_DIRECTIVES],
   template: `
     <div>
-      <h2>button example</h2>
+      <h2 class='light-primary-header'>button example</h2>
       <button md-raised-button color='primary'>thisis a button</button>
     </div>
     <div>

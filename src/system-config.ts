@@ -46,6 +46,7 @@ const barrels: string[] = [
   '@angular/core',
   '@angular/common',
   '@angular/compiler',
+  '@angular/forms',
   '@angular/http',
   '@angular/router',
   '@angular/platform-browser',
@@ -64,6 +65,16 @@ const barrels: string[] = [
   'app/icon-example',
   'app/card-example',
   'app/checkbox-example',
+  'app/grid-list-example',
+  'app/input-example',
+  'app/list-example',
+  'app/progress-bar-example',
+  'app/progress-circle-example',
+  'app/radio-example',
+  'app/slide-toggle',
+  'app/tabs-example',
+  'app/toolbar-example',
+  'app/lovely-people',
   /** @cli-barrel */
 ];
 

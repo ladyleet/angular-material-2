@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Routes, Router, ROUTER_DIRECTIVES} from '@angular/router';
 import { MD_BUTTON_DIRECTIVES } from '@angular2-material/button';
 import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
 import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
@@ -70,7 +69,7 @@ import { MD_TOOLBAR_DIRECTIVES } from '@angular2-material/toolbar';
           <md-grid-tile>Two</md-grid-tile>
           <md-grid-tile>Three</md-grid-tile>
           <md-grid-tile>Four</md-grid-tile>
-  </md-grid-list>
+        </md-grid-list>
       </div>
 
       <div>
@@ -116,7 +115,7 @@ import { MD_TOOLBAR_DIRECTIVES } from '@angular2-material/toolbar';
       </div>
 
       <div>
-        <h2>slide-toggle example</h2>
+        <h2>Slide Toggle Example</h2>
           <md-slide-toggle [checked]="isChecked">
             Input Binding
           </md-slide-toggle>

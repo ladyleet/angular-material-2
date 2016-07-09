@@ -1,0 +1,38 @@
+
+/*master app colors*/
+
+.dark-primary-color {
+  color: #C2185B!important
+}
+
+.dark-primary-background-color {
+  background-color: #C2185B!important
+}
+
+.primary-color {
+  color: #E91E63!important
+}
+
+.primary-background-color {
+  background-color: #E91E63!important
+}
+
+.light-primary-color {
+  color: #F8BBD0!important
+}
+
+.light-primary-background-color {
+  background-color: #F8BBD0!important
+}
+
+.accent-color {
+  color: #00BCD4!important
+}
+
+.accent-background-color {
+  background-color: #00BCD4!important
+}
+
+.white-text {
+  color: #FFFFFF!important
+}
