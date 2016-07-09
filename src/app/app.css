@@ -36,3 +36,9 @@
 .white-text {
   color: #FFFFFF!important
 }
+
+/*text alignment*/
+
+.text-align-center {
+  text-align: center
+}

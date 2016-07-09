@@ -11,13 +11,13 @@ import { MdIcon, MdIconRegistry } from '@angular2-material/icon';
     MD_TOOLBAR_DIRECTIVES,
     MdIcon
   ],
-  providers: [ MdIconRegistry ],
+  providers: [ MdIconRegistry],
   template: `
     <md-toolbar class='primary-background-color white-text'>
       <button md-icon-button>
-        <md-icon>menu</md-icon>
+        <md-icon>favorite</md-icon>
       </button>
-      MY BEAUTIFUL ANGULAR MATERIAL 2 SITE IT'S ALIIIIIIIIIIIVVVVVEEEEEE
+      AN ANGULAR MATERIAL 2 GUIDE
     </md-toolbar>
   `
 })
