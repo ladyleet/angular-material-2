@@ -12,7 +12,9 @@ module.exports = function(defaults) {
       'reflect-metadata/*.js',
       'rxjs/**/*.js',
       '@angular/**/*.js',
-      '@angular2-material/**/*'
+      '@angular2-material/**/*',
+      'materialize-css/bin/materialize.css',
+      'materialize-css/bin/materialize.js'
     ]
   });
 };
